@@ -5,11 +5,6 @@ public class Game{
 	private final Players players = new Players();
 	
 	public void start() {
-		System.out.println("Game started!");
-		
-		System.out.println(players.next());
-		System.out.println(players.next());
-		System.out.println(players.next());
-		System.out.println(players.next());
+		System.out.println(board);
 	}
 }

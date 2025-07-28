@@ -19,7 +19,7 @@ public class Game{
 		
 		Output.write(board);
 		
-		if(board.isFull()){
+		if(winner == null && board.isFull()){
 			Output.write("It's a draw!");
 			return;
 		}
